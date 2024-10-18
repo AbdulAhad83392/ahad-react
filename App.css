@@ -1,0 +1,289 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    background-color: skyblue;
+    height: auto;
+    width: 100%;
+}
+label{
+    font-size: 35px;
+    padding: 0px 100px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 5px 17px;
+}
+nav ul li a{
+    font-size: 17px;
+    color: black;
+    padding: 5px 7px;
+    border-radius: 19px;
+
+
+}
+nav ul li a:hover{
+    font-size: 17px;
+    color: white;
+    padding: 5px 7px;
+    background-color: black;
+    border-radius: 19px;
+
+}
+
+button{
+    display: none;
+}
+
+
+@media screen and (max-width: 611px) {
+    button{
+        display: block;
+    }
+    
+    ul{
+        display: none;
+    }
+} */
+
+
+
+.hjg{
+    color: aliceblue;
+}
+
+.mdd{
+    background-color: #123;
+    height: auto;
+    overflow-y: auto;
+
+}
+.mdcol{
+    background-color: aliceblue;
+    height: auto;
+    overflow-y: scroll;
+
+}
+.imm{
+    background-image: url(../src/Media/ahad\ black\ backgrond.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    height: 20vh;
+    border: none;
+    border-radius: 100%;
+}
+
+li{
+    margin-top: 2rem;
+    font-size: 25px;
+    transition: .5s all ease-in-out;
+    text-decoration: none;
+    color: aliceblue;
+}
+li:hover{
+    color: bisque;
+    transition: .5s all ease-in-out;
+    border-bottom: 1px solid white;
+    margin-top: 2rem;
+    width: 120px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.hhh{
+    color: white;
+    justify-content: space-around;
+    text-align: justify;
+}
+.hhh:hover{
+    color: blue;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.hjh{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.first{
+    background-image: url(https://bootstrapmade.com/content/demo/iPortfolio/assets/img/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.h12{
+    color: antiquewhite;
+    text-align: center;
+    /* margin-top: 3rem; */
+}
+
+.hg1{
+    border-bottom: 4px solid blue;
+    width: 11%;
+}
+
+.uiui{
+    background-image: url('https://bootstrapmade.com/content/demo/iPortfolio/assets/img/hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+
+}
+.h5e{
+    display: flex;
+    gap: 5rem;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child{
+    width: 45%;
+    height: auto;
+}
+.btt{
+    border: none;
+    width: 13%;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+
+}
+.btt:hover{
+    border: none;
+    width: 13%;
+    border-radius: 20px;
+    background-color: bisque;
+    color: blue;
+    transition: all .5s ease-in-out;
+}
+
+.npm{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.qwa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px solid white;
+}
+
+.a1{
+    background-image: url(../src/Media/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 30%;
+    border: 5px solid aliceblue;
+
+}
+.a2{
+    background-image: url(../src/Media/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 30%;
+    border: 5px solid aliceblue;
+
+}
+
+.a3{
+    background-image: url(../src/Media/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 30%;
+    border: 5px solid aliceblue;
+
+}
+
+.col{
+    border: none;
+    transition: .5s all ease-in-out;
+
+}
+.col:hover{
+    color: blue;
+    border: 1px solid blue;
+    background-color: #1234;
+    transition: .5s all ease-in-out;
+}
+
+.input{
+    width: 20%;
+    margin-top: 2rem;
+    margin-left: 30%;
+    border-radius: 17px;
+}
+
+.bvn{
+    margin-left: 30%;
+    width: 17%;
+    border-radius: 17px;
+    border: none;
+    margin-top: 2rem;
+    height: 4rem;
+
+}
+.bvn:hover{
+    box-shadow: 10px 10px 10px;
+    margin-left: 30%;
+    width: 17%;
+    border-radius: 17px;
+    border: none;
+    background-color: aliceblue;
+    margin-top: 2rem;
+    height: 4rem;
+}
+iframe{
+    /* margin-left: 24%; */
+    height: 40vh;
+    width: 100%;
+}
+
+.slider{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+.sli{
+    width: 50%;
+    height: 50vh;
+    border: 5px black solid;
+    overflow: hidden;
+}
+
+
+
+
