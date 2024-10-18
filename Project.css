@@ -1,0 +1,398 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Media/wave-haikei\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color: #123;
+}
+.b{
+    height: 80vh;
+    width: 30%;
+    background-image: url(../Media/Ahad\ dp.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+
+    
+}
+.c{
+    width: 50%;
+}
+
+.btn12{
+    width: 26%;
+    height: 3rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 2rem;
+    /* font-size: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+    transition: all 2s ease-in;
+}
+.btn12:hover{
+    transition: all 2s ease-out;
+    width: 26%;
+    height: 3rem;
+    background-color: yellow;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 2rem;
+    /* font-size: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+.btn121{
+    font-size: 43px;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.portbackground{
+    background-color: #123;
+    color: white;
+    height: auto;
+}
+
+.aa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.portabout{
+    width: 40%;
+    height: auto;
+}
+.portexp{
+    width: 45%;
+    height: 80vh;
+}
+.boxer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    gap: 3rem;
+
+}
+
+
+.box{
+    width: 40%;
+    height: 30vh;
+    background-color: transparent;
+    border: 1px solid aliceblue;
+}
+
+.inbox{
+    font-size: 35px;
+    color: white;
+    border-radius: 50%;
+    background-color: #FFB400;
+}
+
+.educ{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+}
+.edu{
+    width: 40%;
+    height: 28vh;
+    border-left: 1px solid white;
+    margin-top: 1rem;
+}
+
+.port{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 30%;
+    height: auto;
+}
+.por:hover{
+    background-image: url(../Media/bussinessyellow.jpg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+
+}
+.por{
+    margin-top: 1rem;
+}
+
+.port1{
+    background-image: url(../Media/pencilgreen.jpg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+.port2{
+    background-image: url(../Media/rabbit.jpg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+.port3{
+    background-image: url(../Media/peigon.jpeg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+.port4{
+    background-image: url(../Media/whiteflower.jpg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+.port5{
+    background-image: url(../Media/white.jpg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+.port6{
+    background-image: url(../Media/flowerportrait.jpg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+.port7{
+    background-image: url(../Media/handpen.webp);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+.port8{
+    background-image: url(../Media/ballpoint.jpg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+.port9{
+    background-image: url(../Media/Pencil.jpg);
+    width: 30%;
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+
+.inp{
+    width: 100%;
+    background-color: rgb(14, 18, 22);
+    border-radius: 2rem;
+    height: 10vh;
+}
+.input{
+    height: 40vh;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: rgb(14, 18, 22);
+    border-radius: 2rem;
+}
+.i{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.btn1w{
+    width: 10%;
+    margin-left: 40%;
+    height: 7vh;
+    border-radius: 1rem;
+    background-color: #1234;
+    color: antiquewhite;
+    transition: all 2s ease-in-out;
+}
+.btn1w:hover{
+    transition: all 2s ease-in-out;
+    width: 10%;
+    margin-left: 40%;
+    height: 7vh;
+    border-radius: 1rem;
+    background-color: #1234;
+    color: antiquewhite;
+    margin-top: 1rem;
+    box-shadow: 10px 15px 10px black;
+}
+
+.tele{
+    font-size: 40px;
+    color: #FFB400;
+}
+
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+iframe{
+    border-radius: 2rem;
+    transition: all 2s ease-in-out;
+}
+iframe:hover{
+    transform: scale(1.3);
+    border-radius: 2rem;
+    transition: all 2s ease-in-out;
+
+}
+
+.hqw{
+    color: white;
+}
+
+/* Styling for the navbar container */
+.navbar-container {
+    position: fixed;
+    height: 80vh; /* Full viewport height */
+    display: flex;
+    /* justify-content: center; Horizontally center */
+    /* align-items: center; Vertically center */
+  }
+  
+  /* Styling for the navbar */
+  .navbar {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .nav-item {
+    position: relative;
+    margin: 20px 0; /* Vertical spacing between items */
+    font-size: 2rem; /* Icon size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: transform 0.3s ease; /* Smooth hover animation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li{
+    width: 53%;
+  }
+  
+  .nav-item i {
+    color: #333;
+    transition: font-size 0.3s ease;
+  }
+  
+  /* Initially hide the label */
+  .nav-label {
+    /* position: absolute; */
+    bottom: 0;
+    left: 60px; /* Position text to the right of the icon */
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease, left 0.3s ease; /* Smooth appearance */
+  }
+  
+  /* Hover effect: increase size and show label */
+  .nav-item:hover {
+    /* transform: scale(1.2);  */
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+    /* transition: 2s all ease-in-out; */
+    /* Scale up the entire item */
+  }
+  
+  .nav-item:hover i {
+    background-color: yellow;
+    border-radius: 25px;
+    transition: all 2s ease-in-out;
+    color: black;
+    /* font-size: 2.5rem; Increase icon size */
+    color: #007BFF; /* Change color on hover */
+  }
+  
+  .nav-item:hover .nav-label {
+    background-color: yellow;
+    color: black;
+    transition: all 2s ease-in-out;
+    opacity: 1; /* Make label visible */
+    left: 50px; /* Slight left movement for effect */
+  }
+  .fas{
+    color: white;
+  }
+
+
+
+  
+ 
+  
+ 
+  
+
+
+
+
+
+

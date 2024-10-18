@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icon Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- FontAwesome for icons -->
+</head>
+<style>
+    /* Styling for the navbar container */
+.navbar-container {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+}
+
+/* Styling for the navbar */
+.navbar {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-item {
+  position: relative;
+  margin: 20px 0; /* Vertical spacing between items */
+  font-size: 2rem; /* Icon size */
+  cursor: pointer; /* Change cursor on hover */
+  transition: transform 0.3s ease; /* Smooth hover animation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item i {
+  color: #333;
+  transition: font-size 0.3s ease;
+}
+
+/* Initially hide the label */
+.nav-label {
+  position: absolute;
+  bottom: 0;
+  left: 60px; /* Position text to the right of the icon */
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, left 0.3s ease; /* Smooth appearance */
+}
+
+/* Hover effect: increase size and show label */
+.nav-item:hover {
+  transform: scale(1.2); /* Scale up the entire item */
+}
+
+.nav-item:hover i {
+  font-size: 2.5rem; /* Increase icon size */
+  color: #007BFF; /* Change color on hover */
+}
+
+.nav-item:hover .nav-label {
+  opacity: 1; /* Make label visible */
+  left: 50px; /* Slight left movement for effect */
+}
+
+</style>
+<body>
+  <div class="navbar-container">
+    <ul class="navbar">
+      <li class="nav-item">
+        <i class="fas fa-home"></i>
+        <span class="nav-label">Home</span>
+      </li>
+      <li class="nav-item">
+        <i class="fas fa-user"></i>
+        <span class="nav-label">About</span>
+      </li>
+      <li class="nav-item">
+        <i class="fas fa-briefcase"></i>
+        <span class="nav-label">Portfolio</span>
+      </li>
+      <li class="nav-item">
+        <i class="fas fa-envelope"></i>
+        <span class="nav-label">Contact</span>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
